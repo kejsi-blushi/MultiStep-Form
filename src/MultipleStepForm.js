@@ -20,30 +20,6 @@ const steps = [
 ];
 
 const MultiStepForm = () => {
-  // useEffect(() => {
-  //   const storedFormData = localStorage.getItem("formData");
-  //   if (storedFormData) {
-  //     form.setValue("name", storedFormData.name);
-  //     form.setValue("email", storedFormData.email);
-  //     form.setValue("address", storedFormData.address);
-  //     form.setValue("city", storedFormData.city);
-  //     form.setValue("postalCode", storedFormData.postalCode);
-  //     form.setValue("creditCardNumber", storedFormData.creditCardNumber);
-  //     form.setValue("expiryDate", storedFormData.expiryDate);
-  //     form.setValue("cvv", storedFormData.cvv);
-  //   }
-  // }, []);
-  // useEffect(() => {
-  //   form.setValue("name", "");
-  //   form.setValue("email", "");
-  //   form.setValue("address", "");
-  //   form.setValue("city", "");
-  //   form.setValue("postalCode", "");
-  //   form.setValue("creditCardNumber", "");
-  //   form.setValue("expiryDate", "");
-  //   form.setValue("cvv", "");
-  // }, []);
-
   const form = useForm({
     defaultValues: {
       name: "",
