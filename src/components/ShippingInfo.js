@@ -69,7 +69,7 @@ const ShippingInfo = ({ form }) => {
         })}
         error={!!errors.address}
         helperText={errors.address ? errors.address.message : ""}
-        sx={{ width: "50%" }}
+        sx={{ width: "35%" }}
       />
       <br />
       <TextField
@@ -81,7 +81,7 @@ const ShippingInfo = ({ form }) => {
         })}
         error={!!errors.city}
         helperText={errors.city ? errors.city.message : ""}
-        sx={{ width: "50%" }}
+        sx={{ width: "35%" }}
       />
       <br />
       <TextField
@@ -94,7 +94,7 @@ const ShippingInfo = ({ form }) => {
         })}
         error={!!errors.postalCode}
         helperText={errors.postalCode ? errors.postalCode.message : ""}
-        sx={{ width: "50%" }}
+        sx={{ width: "35%" }}
       />
     </div>
   );

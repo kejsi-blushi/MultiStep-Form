@@ -60,7 +60,7 @@ const PersonalInfo = ({ form }) => {
         })}
         error={!!errors.name}
         helperText={errors.name ? errors.name.message : ""}
-        sx={{ width: "50%" }} // Adjust the width as needed
+        sx={{ width: "35%" }}
       />
       <br />
       <TextField
@@ -76,7 +76,7 @@ const PersonalInfo = ({ form }) => {
         })}
         error={!!errors.email}
         helperText={errors.email ? errors.email.message : ""}
-        sx={{ width: "50%" }}
+        sx={{ width: "35%" }}
       />
     </div>
   );

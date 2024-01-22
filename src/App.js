@@ -1,6 +1,6 @@
 import React from "react";
 import MultiStepForm from "./MultipleStepForm";
-import "./App.css"; // Import the CSS file
+import "./App.css";
 function App() {
   return (
     <div className="App">
